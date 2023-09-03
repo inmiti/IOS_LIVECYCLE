@@ -13,6 +13,8 @@
 		1FC01C952A9E5F9800D9D87E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC01C932A9E5F9800D9D87E /* Main.storyboard */; };
 		1FC01C972A9E5F9B00D9D87E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC01C962A9E5F9B00D9D87E /* Assets.xcassets */; };
 		1FC01C9A2A9E5F9B00D9D87E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC01C982A9E5F9B00D9D87E /* LaunchScreen.storyboard */; };
+		1FF5694F2A9FA4A4000E041F /* XIBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF5694D2A9FA4A4000E041F /* XIBViewController.swift */; };
+		1FF569502A9FA4A4000E041F /* XIBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FF5694E2A9FA4A4000E041F /* XIBViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1FC01C962A9E5F9B00D9D87E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FC01C992A9E5F9B00D9D87E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FC01C9B2A9E5F9B00D9D87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF5694D2A9FA4A4000E041F /* XIBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XIBViewController.swift; sourceTree = "<group>"; };
+		1FF5694E2A9FA4A4000E041F /* XIBViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XIBViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				1FC01C962A9E5F9B00D9D87E /* Assets.xcassets */,
 				1FC01C982A9E5F9B00D9D87E /* LaunchScreen.storyboard */,
 				1FC01C9B2A9E5F9B00D9D87E /* Info.plist */,
+				1FF5694D2A9FA4A4000E041F /* XIBViewController.swift */,
+				1FF5694E2A9FA4A4000E041F /* XIBViewController.xib */,
 			);
 			path = Lifecycle;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FF569502A9FA4A4000E041F /* XIBViewController.xib in Resources */,
 				1FC01C9A2A9E5F9B00D9D87E /* LaunchScreen.storyboard in Resources */,
 				1FC01C972A9E5F9B00D9D87E /* Assets.xcassets in Resources */,
 				1FC01C952A9E5F9800D9D87E /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FF5694F2A9FA4A4000E041F /* XIBViewController.swift in Sources */,
 				1FC01C922A9E5F9800D9D87E /* ViewController.swift in Sources */,
 				1FC01C8E2A9E5F9800D9D87E /* AppDelegate.swift in Sources */,
 				1FC01C902A9E5F9800D9D87E /* SceneDelegate.swift in Sources */,
